@@ -1,12 +1,8 @@
+import ui.HelloWorldClass;
+
+//Let just say that it is the entry point to that program
 public class Main {
     public static void main(String[] args) {
-
-        Car lCar = new Car();
-        System.out.println(lCar.getNumberOfWheels());
-        Car lCAr2 = new Car(4);
-        System.out.println(lCAr2.getNumberOfWheels());
-
-
-        JavaUI myUI = new JavaUI();
+        HelloWorldClass hello = new HelloWorldClass();
     }
 }

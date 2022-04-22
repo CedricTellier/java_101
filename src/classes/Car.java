@@ -1,5 +1,10 @@
-public class Car extends Vehicule{
+package classes;
 
+import enums.myEnums;
+
+public class Car extends Vehicule {
+
+    private myEnums lENum;
     private int mWheelsNumber = 0;
     private final boolean hasWheels = true;
 
