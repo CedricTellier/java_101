@@ -1,7 +1,11 @@
 package enums;
 
-public enum myEnums {
+public enum Type {
+    _NONE,
     CAR,
     BOAT,
     BICYCLE,
+    BUS,
+    TRAIN
 }
+

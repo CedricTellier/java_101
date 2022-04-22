@@ -1,23 +1,42 @@
 package classes;
-
-import enums.myEnums;
+import enums.Type;
+import jdk.jshell.execution.Util;
 
 public class Car extends Vehicule {
-
-    private myEnums lENum;
     private int mWheelsNumber = 0;
-    private final boolean hasWheels = true;
+    private final boolean mHasWheels = true;
 
-    public Car(int wheelsNumber){
-        this.mWheelsNumber = 4;
+    //Constructors
+    public Car() {
+    };
+
+    public Car(int wheelsNumber) {
+        this.mWheelsNumber = wheelsNumber;
+        System.out.println(Utils.isEven(this.getNumberOfWheels()));
     }
 
-    public Car(){};
-    public boolean hasWheels(){
-        return this.hasWheels();
-    }
-
-    public int getNumberOfWheels(){
+    //Getters - Setters
+    public int getNumberOfWheels() {
         return this.mWheelsNumber;
     }
+
+    public void setNumberOfWheels(int aWheels) {
+        this.mWheelsNumber = aWheels;
+    }
+
+    public void setType(Type aType) {
+        this.mType = Type.CAR;
+    }
+
+    public Type getType() {
+        return this.mType;
+    }
+
+    //Utils
+    public boolean hasWheels() {
+        return this.mHasWheels;
+    }
+
+
+
 }
