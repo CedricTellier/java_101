@@ -1,5 +1,5 @@
-package classes;
-import enums.Type;
+package com.classes;
+import com.enums.Type;
 
 // Has to be modified to use an interface --> See according VehicleInterface
 public abstract class Vehicle {

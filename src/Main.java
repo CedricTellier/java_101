@@ -1,5 +1,5 @@
 
-import classes.Utils;
+import com.utils.Utils;
 
 //Let just say that it is the entry point to that program
 public class Main {

@@ -1,6 +1,6 @@
-package interfaces;
+package com.interfaces;
 
-import enums.Type;
+import com.enums.Type;
 
 public interface VehicleInterface {
      boolean hasWheels();

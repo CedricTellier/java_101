@@ -1,6 +1,6 @@
-package classes;
-import enums.Type;
-import jdk.jshell.execution.Util;
+package com.classes;
+import com.enums.Type;
+import com.utils.Utils;
 
 public class Car extends Vehicule {
     private int mWheelsNumber = 0;

@@ -1,4 +1,4 @@
-package classes;
+package com.utils;
 
 // Static methods to use this class
 public class Utils {

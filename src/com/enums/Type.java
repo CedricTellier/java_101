@@ -1,4 +1,4 @@
-package enums;
+package com.enums;
 
 public enum Type {
     _NONE,
