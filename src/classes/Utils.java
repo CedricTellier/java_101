@@ -1,5 +1,6 @@
 package classes;
 
+// Static methods to use this class
 public class Utils {
 
     public static double add(int[] aValues){
@@ -10,7 +11,8 @@ public class Utils {
         return result;
     }
 
+
     public static boolean isEven(int aNumber){
-        return (aNumber%2>0);
+        return (aNumber%2==0);
     }
 }
