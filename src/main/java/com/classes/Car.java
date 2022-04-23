@@ -1,8 +1,9 @@
 package com.classes;
+import com.annotations.Annotation;
 import com.enums.Type;
 import com.utils.Utils;
 
-public class Car extends Vehicule {
+public class Car extends Vehicle {
     private int mWheelsNumber = 0;
     private final boolean mHasWheels = true;
 
@@ -36,7 +37,4 @@ public class Car extends Vehicule {
     public boolean hasWheels() {
         return this.mHasWheels;
     }
-
-
-
 }
