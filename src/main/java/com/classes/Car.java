@@ -1,11 +1,11 @@
 package com.classes;
-import com.annotations.Annotation;
 import com.enums.Type;
 import com.utils.Utils;
 
 public class Car extends Vehicle {
     private int mWheelsNumber = 0;
     private final boolean mHasWheels = true;
+    private Type mType = Type._NONE;
 
     //Constructors
     public Car() {
@@ -26,7 +26,7 @@ public class Car extends Vehicle {
     }
 
     public void setType(Type aType) {
-        this.mType = Type.CAR;
+        this.mType = aType;
     }
 
     public Type getType() {
